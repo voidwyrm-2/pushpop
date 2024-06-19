@@ -1,5 +1,5 @@
 # Pushpop
-Pushpop is a lazily interpreted language I meant as a tool for learning a programming language(I also just felt like making it)
+Pushpop is a lazily interpreted language I made as a tool for learning a programming language(I also just felt like making it)
 
 If you can write this in the language you're trying to learn, you can probably do pretty much anything(unless your're learning Haskell, in which case you were doomed from the start)
 
@@ -10,7 +10,7 @@ And the accumulator pushed to and popped from the stack by the `push` and `pop` 
 
 The accumulator has a max of 127 and wraps around to 0 if it's incremented above 127
 
-Line Comments are started with `.`
+Line comments are started with `.`
 
 See [instructions.pp](./scripts/instructions.pp) for all explanations of all the instructions
 
